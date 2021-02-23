@@ -74,9 +74,17 @@ Learning Blockchain and crypto
     myMapping[1345][1] = {...myData}
 ```
 
-- Conditionals and Loops
+3. Conditionals and Loops
 
 ```md
 - if, else regular
 - for loop regular
 ```
+
+4. Events
+5. Modifiers
+6. Enums
+7. Ether payment
+8. Inheritance : by using is
+9. Factories : creating contracts from other contracts
+10. Smart contract interaction
