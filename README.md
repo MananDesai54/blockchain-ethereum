@@ -7,7 +7,9 @@ Learning Blockchain and crypto
 - [Anders Block chain](https://andersbrownworth.com/blockchain/hash)
 - [Ether scan](https://etherscan.io)
 - [Dapp UniverSity](https://www.dappuniversity.com/)
-
+- [Ether to other(wie etc) Converter](https://etherconverter.netlify.app/)
+- [Gas Price](https://docs.google.com/spreadsheets/d/1n6mRqkBz3iWcOlRem_mO09GtSKEKrAsfO7Frgx18pNU/edit#gid=0)
+- [Blockchain.com](https://www.blockchain.com/)
 # Videos to watch
 
 - Stephen Grinder on Udemy
@@ -32,7 +34,11 @@ Learning Blockchain and crypto
 - solidity - to create smart contracts
 - smart contracts
 - remix editor
+- gasPrice: per gas wie amount
+- startGas/gasLimit: max amount gas to be used
 ```
+
+- Mining: Finding nonce value
 
 # buzz words
 
