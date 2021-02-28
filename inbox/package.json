@@ -4,6 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "solc": "0.7.0"
+    "ganache-cli": "^6.12.2",
+    "mocha": "^8.3.0",
+    "solc": "0.7.0",
+    "web3": "^1.3.4"
+  },
+  "scripts": {
+    "test": "mocha"
   }
 }
