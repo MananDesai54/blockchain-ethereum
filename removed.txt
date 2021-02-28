@@ -1,0 +1,24 @@
+class Car {
+  park() {
+    return "Stopped";
+  }
+
+  drive() {
+    return "Run";
+  }
+}
+
+let car;
+beforeEach(() => {
+  car = new Car();
+});
+
+describe("Testing car class", () => {
+  it("can park", () => {
+    assert.strictEqual(car.park(), "Stopped");
+  });
+
+  it("can drive", () => {
+    assert.strictEqual(car.drive(), "Run");
+  });
+});
