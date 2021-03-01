@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@truffle/hdwallet-provider": "^1.2.2",
     "ganache-cli": "^6.12.2",
     "mocha": "^8.3.0",
     "solc": "0.7.0",

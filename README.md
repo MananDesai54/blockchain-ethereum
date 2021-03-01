@@ -11,6 +11,19 @@ Learning Blockchain and crypto
 - [Gas Price](https://docs.google.com/spreadsheets/d/1n6mRqkBz3iWcOlRem_mO09GtSKEKrAsfO7Frgx18pNU/edit#gid=0)
 - [Blockchain.com](https://www.blockchain.com/)
 - [Mnemonics](https://iancoleman.io/bip39/)
+- [Ether Scan](https://rinkeby.etherscan.io/)
+
+# What we used
+
+- web3.js
+- solc.js
+- ganache-cli
+- mocha.js
+- infura
+- remix editor
+- Meta mask
+- ethereum
+- rinkeby, main etc network
 
 # Videos to watch
 
