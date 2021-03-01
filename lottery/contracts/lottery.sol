@@ -44,12 +44,12 @@ contract Lottery {
         players.push(msg.sender);
     }
     
-    function winner() public isOwner returns (address payable) {
+    function winner() public isOwner {
         uint winnerIndex = random() % players.length;
         players[winnerIndex].transfer(address(this).balance);
-        address payable _winner = players[winnerIndex];
+        // address payable _winner = players[winnerIndex];
         players = new address payable[](0);
-        return _winner;
+        // return _winner;
     }
     function getPlayers() public view isOwner returns (address payable[] memory) {
         return players;
