@@ -2,6 +2,8 @@
 
 Learning Blockchain and crypto
 
+- 0.001 ether = 1000000000000000 wei
+
 # Important link
 
 - [Anders Block chain](https://andersbrownworth.com/blockchain/hash)
@@ -81,9 +83,11 @@ Learning Blockchain and crypto
 - int, uint, uint256, etc..
 - string, byte32, etc..
 - bool
+- fixed/ ufixed (2.20, -3.14)
 - address (to store ethereum address)
 - Struct (to create custom data type)
 - Arrays (int[], uint[], string[], etc..), push to add element
+- Fixed Array (int[3] = [1,2,3]), Dynamic Array((int[] = [1,2,3]))
 - 2d arrays
 - Mappings = for more complex data
   e.x:
