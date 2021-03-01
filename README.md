@@ -63,7 +63,8 @@ Learning Blockchain and crypto
 
 # Solidity Knowledge
 
-- Solidity has global variable called msg (msg.sender). it returns the senderId of user who called the function
+- Solidity has global variable called msg { sender, value, data, gas }
+- Solidity has global variable called block { difficulty, timeout , ... }
 - constructor runs when smart contracts are deployed to block chain
 
 1. Function Types
