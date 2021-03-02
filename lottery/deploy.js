@@ -23,6 +23,7 @@ const deploy = async () => {
     .deploy({ data: bytecode.object })
     .send({ from: accounts[0], gas: "1000000" });
 
+  console.log(abi);
   console.log("Deployed the contract", result.options.address);
 };
 deploy().catch((error) => {

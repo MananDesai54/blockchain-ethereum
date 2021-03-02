@@ -53,6 +53,7 @@ Learning Blockchain and crypto
 - remix editor
 - gasPrice: per gas wie amount
 - startGas/gasLimit: max amount gas to be used
+- connecting with front-end
 ```
 
 - Mining: Finding nonce value
