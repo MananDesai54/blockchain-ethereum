@@ -23,6 +23,16 @@ export const abi = [
   },
   {
     inputs: [],
+    name: "getManager",
+    outputs: [[Object]],
+    stateMutability: "view",
+    type: "function",
+    constant: true,
+    payable: undefined,
+    signature: "0xd5009584",
+  },
+  {
+    inputs: [],
     name: "getPlayers",
     outputs: [[Object]],
     stateMutability: "view",
@@ -54,7 +64,7 @@ export const abi = [
   {
     inputs: [],
     name: "winner",
-    outputs: [],
+    outputs: [[Object]],
     stateMutability: "nonpayable",
     type: "function",
     constant: undefined,
