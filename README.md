@@ -4,6 +4,10 @@ Learning Blockchain and crypto
 
 - 0.001 ether = 1000000000000000 wei
 
+# Bugs
+
+- getting value of storage variable or returned variable is empty array why?
+
 # Important link
 
 - [Anders Block chain](https://andersbrownworth.com/blockchain/hash)
