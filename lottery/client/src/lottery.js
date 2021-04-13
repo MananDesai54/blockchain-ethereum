@@ -1,6 +1,4 @@
-import { web3 } from "./web3";
-
-const address = process.env.REACT_APP_DEPLOYED_ADDRESS;
+export const address = process.env.REACT_APP_DEPLOYED_ADDRESS;
 
 export const abi = [
   {
@@ -72,5 +70,3 @@ export const abi = [
     signature: "0xdfbf53ae",
   },
 ];
-
-export const lottery = new web3.eth.Contract(abi, address);
