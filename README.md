@@ -119,3 +119,49 @@ Learning Blockchain and crypto
 8. Inheritance : by using is
 9. Factories : creating contracts from other contracts
 10. Smart contract interaction
+
+# IPFS - InterPlanetary File System
+- IPFS is a distributed system for storing and accessing files, websites, applications, and data. IPFS is a peer-to-peer (p2p) storage network.
+- About IPFS
+  - Decentralized
+  - Content is accessible through peers located anywhere in the world, that might relay information, store it, or do both. Thus it gives the following advantages.
+  - Reliability
+  - Makes it harder to censor content
+  - Faster than centralized as you get it from a peer near to your location
+  - Available all the time
+  - Uses Content Addressing instead of location addressing
+	- Traditional URLs and file paths are based on Location addressing which means that the URLs or Paths are based on WHERE the content resides.
+	- Example: 
+    - https://en.wikipedia.org/wiki/Aardvark/Users/Alice/Documents/term_paper.doc
+    - C:\Users\Joe\My Documents\project_sprint_presentation.ppt
+	- IPFS uses Content Addressing. Here a hash is created using algorithms like sha2-256 from the Content & Metadata of Content. Now they uses same hash as the URL which can be looked upon by appending it to the IPFS gateway i.e, https://ipfs.io
+  - Example: The Wikipedia page https://en.wikipedia.org/wiki/Aardvark is also available in IPFS as following ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Aardvark.html
+  - You can search for the link given below to get the same source from IPFS.
+https://ipfs.io/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Aardvark.html
+  - However, hash values are generated according to content, still IPFS can manage to show updated(changed) content with the same hash value. IPFS does it using IPNS, Mutable File System (MFS), and DNSLink.
+
+# Participation
+- IPFS is based on the ideas of possession and participation, where many people possess each others' files and participate in making them available.
+- That means IPFS only works well when people are actively participating. If you use your computer to share files using IPFS, but then you turn your computer off, other people won't be able to get those files from you anymore. But if you or others make sure that copies of those files are stored on more than one computer that's powered on and running IPFS, those files will be more reliably available to other IPFS users who want them. This happens to some extent automatically: by default, your computer shares a file with others for a limited time after you've downloaded it using IPFS. You can also make content available more permanently by pinning it, which saves it to your computer and makes it available on the IPFS network until you decide to unpin it. (You can learn more about this in the guide to persistence and pinning.)
+
+# Working with IPFS
+
+- you could either initialize js-ipfs in the browser on your own, or host your own node locally by installing IPFS and running a daemon in your terminal. When you're ready to experiment with that, you can visit the IPFS docs site to learn how to install IPFS and initialize your node.
+
+- Note: The js-ipfs library is in Alpha state.The codebase hasn't been audited by security specialists and it shouldn't be used to store, share or publish sensitive information.
+
+- While development Js-ipfs-http-client library is used for interacting with IPFS
+
+# Creating Private IPFS network
+- Following links can be used to know how to create an ipfs private network:
+- https://medium.com/@s_van_laar/deploy-a-private-ipfs-network-on-ubuntu-in-5-steps-5aad95f7261b
+
+- https://labs.eleks.com/2019/03/ipfs-network-data-replication.html
+
+
+# Smart Contract
+- Description
+    - A smart contract is a computer program or a transaction protocol which is intended to automatically execute, control or document legally relevant events and actions according to the terms of a contract or an agreement.
+
+
+
