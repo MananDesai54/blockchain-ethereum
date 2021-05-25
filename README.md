@@ -18,6 +18,10 @@ Learning Blockchain and crypto
 - [Blockchain.com](https://www.blockchain.com/)
 - [Mnemonics](https://iancoleman.io/bip39/)
 - [Ether Scan](https://rinkeby.etherscan.io/)
+- Nourini - https://www.youtube.com/watch?v=MMZGQSWD4tU
+- Krugman - https://www.youtube.com/watch?v=Y_IYGeZLLhI
+
+
 
 # What we used
 
