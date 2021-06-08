@@ -1,0 +1,18 @@
+/* Styles go here */
+
+a{
+    font-size: 20px;
+}
+body{
+    background-color: aliceblue;
+    font-family: poppins;
+}
+
+.card{
+    background-color: rgb(253, 255, 161);
+}
+
+.card:hover{
+    transform: scale(1.07);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
