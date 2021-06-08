@@ -167,5 +167,17 @@ https://ipfs.io/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Aardvar
 - Description
     - A smart contract is a computer program or a transaction protocol which is intended to automatically execute, control or document legally relevant events and actions according to the terms of a contract or an agreement.
 
+# Metamask : 
+- MetaMask is a browser plugin, available as the MetaMask Chrome extension or Firefox Add-on. At its core, it serves as an Ethereum wallet: By installing it, you will get access to a unique Ethereum public address, with which you can start sending and receiving ether or tokens.
+- It allows users to store and manage account keys, broadcast transactions, send and receive Ethereum-based cryptocurrencies and tokens, and securely connect to decentralized - applications through a compatible web browser or the mobile app's built-in browser.
+
+# Truffle :
+- Truffle is a development environment, testing framework and asset pipeline for Ethereum, aiming to make life as an Ethereum developer easier.Truffle allows Built-in smart contract compilation, linking, deployment and binary management.
+- Installation : `npm install -g truffle`
+- Requirements : `NodeJS v8.9.4 or later`, `Windows, Linux or Mac OS X`	
+- Creating a project : `truffle init`
+- Compiling smart contracts : `truffle compile`
+- Running Migrations : `truffle migrate`
+
 
 
