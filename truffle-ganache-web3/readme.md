@@ -1,0 +1,8 @@
+- truffle init
+- npm init
+- create contract
+- truffle compile
+- update truffle-config.js
+- create migration file for contract
+- truffle migrate to deploy
+- truffle console to interact with contract from REPL
