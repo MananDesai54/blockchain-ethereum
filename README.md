@@ -4,6 +4,9 @@ Learning Blockchain and crypto
 
 - 0.001 ether = 1000000000000000 wei
 
+# Type of tokens 
+- ERC55
+	- ERC-1155 is a unique token that supports non-fungible (NFTs) and fungible tokens. It's faster and more efficient to use in batch token transfers. Developed by Enjin, it is called, “the next generation multi-token standard.” ERC-1155 can use a single contract to make various types of NFTs.
 # Bugs
 
 - getting value of storage variable or returned variable is empty array why?
