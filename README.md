@@ -6,7 +6,13 @@ Learning Blockchain and crypto
 
 # Type of tokens 
 - ERC55
-	- ERC-1155 is a unique token that supports non-fungible (NFTs) and fungible tokens. It's faster and more efficient to use in batch token transfers. Developed by Enjin, it is called, “the next generation multi-token standard.” ERC-1155 can use a single contract to make various types of NFTs.
+    - ERC-1155 is a unique token that supports non-fungible (NFTs) and fungible tokens. It's faster and more efficient to use in batch token transfers. Developed by Enjin, it is called, “the next generation multi-token standard.” ERC-1155 can use a single contract to make various types of NFTs.
+- ERC Token 20 (Useful for Our ProsperCoin)
+    - This is a fungible type of token so basically all tokens are of the same value. So your  token and my token is same
+- ERC Token 721
+    - This is a NFT kind of token so basically every token has a different value as it’s non fungible. So your token and my token are of different value.
+- ERC Token UTXO
+    - This is a UTXO type token, UTXO is Unspent TxN Output. In this for spending money we need to transfer all the money then required will be spent and remaining will be sent as an output. Bitcoin uses UTXO based strategy. So if you need to send 5 tokens and you have 10 then all 10 tokens will be sent and after txn will be successful the remaining 5 unspent tokens will be returned as output
 # Bugs
 
 - getting value of storage variable or returned variable is empty array why?
