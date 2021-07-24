@@ -303,10 +303,10 @@ contract Core {
 
      /**
        * transfer ether from one account to other
+      */
         function sendTo(address payable to) external payable {
             to.transfer(msg.value);
         } 
-      */
     /**
       => If we want to send ether with txn then only we need to make our method payable, if we are sending ether from balance of smart contract then don't need to make method payable
       => inshort if we are getting value of ether from msg.value then we need method as payable
@@ -317,9 +317,12 @@ contract Core {
 
       * address payable casting (address and uint160)
       => we can cast address payable to address but address to address payable is not possible
-      e.x => address payble add = 0x0;
+      e.x => 
+      */
+             address payble add = 0x0;
              address add1 = add; //possible
              address payable add1; // not possible
+      /**
       => so to convert address to address payable we need to do this
              address payable add1 = payable(add); // possible
       => msg.sender is address of txn sender but it's types is not address, it's address payble so we can send ether directly to msg.sender by `msg.sender.transfer(1 ether)`
