@@ -296,15 +296,18 @@ contract Core {
     /**
      * send ether to any address or to other smart contract
       * tranfer ether from smart contract to any address
+      */
         function sendToAdd(address payable to) external {
             to.transfer(1 ether);
         }
 
-      * transfer ether from one account to other
+     /**
+       * transfer ether from one account to other
         function sendTo(address payable to) external payable {
             to.transfer(msg.value);
         } 
-
+      */
+    /**
       => If we want to send ether with txn then only we need to make our method payable, if we are sending ether from balance of smart contract then don't need to make method payable
       => inshort if we are getting value of ether from msg.value then we need method as payable
 
@@ -325,9 +328,9 @@ contract Core {
       => in transfer method if error occurs then it will propogated to smart contract and whole txn will fail and 
       => with send it will return boolean so we can do something with it instead of throwing error
       e.x
+      */
         function sendToAdd(address payable to) external returns(bool){
             bool isSuccess = to.send(1 ether);
             return isSuccess;
         }
-     */
 }
