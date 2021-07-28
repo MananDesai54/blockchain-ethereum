@@ -334,6 +334,9 @@ contract Core {
              address payble add = 0x0;
              address add1 = add; //possible
              address payable add1; // not possible
+             // address to address payable
+             address payable addr = address(uint160(address(add1)) //older way
+             address payable addr = payable(address(add1)); //newer way
       /**
       => so to convert address to address payable we need to do this
              address payable add1 = payable(add); // possible
