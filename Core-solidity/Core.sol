@@ -30,6 +30,18 @@ contract Core {
         return arg + num;
     }
 
+    // Constructor
+    /**
+     * Constructor is called whenever the smart contract deployed or deployment txn has been done
+     * Constructor can have only two access modifiers: Public and Internal
+     * Contract which have SC which is internal cannot be deployed, iit can be used to inherit from 
+     * Contract with public constructor can be deployed
+     */
+    constructor() public {
+        foo();
+    }
+    function foo() {
+    }
 
     /**
      * Function Modifier Keywords
