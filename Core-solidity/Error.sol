@@ -24,4 +24,16 @@ contract Error {
     // for assert we provide the error that can never happen like address can never be 0x0
 
     // error in other contract
+    // Error will propagate to parent contract so state change in both contract will be reverted but there is other other way by which we can prevent state revert in calling SC so it will return bool in calling SC and if error occur then only state of called SC will change
+    function bar() external {
+        B b = new B();
+        b.foo();
+        address(b).call(abi.encodePacked("foo()")); // return bool so we can check
+    }
+}
+
+contract B {
+    function foo() external pure {
+        revert("Throw error");
+    }
 }
